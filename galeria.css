@@ -1,0 +1,47 @@
+.header{
+ 
+ color: white;   
+ background-color: black;
+ text-align: center;
+}
+
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+li{
+    margin: 2px;
+    list-style: none;
+}
+
+.Containern{
+  display: flex;
+}
+.box{
+    justify-content: center;
+    text-align: center;
+    
+}
+
+body{
+    border: 2px rgb(20, 20, 20) solid;
+}
+
+@keyframes Containern{
+    from{background-color: rgb(11, 146, 128);
+    border-radius: 4px;
+    transition: 10s;
+ 
+    }
+    to {
+        border-radius: 7px;
+        background-color: rgb(49, 54, 49);
+        border-radius: 234px;
+    }
+}
+.Containern{
+    animation: Containern 4s infinite;
+}
+
